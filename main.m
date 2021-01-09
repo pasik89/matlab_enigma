@@ -12,7 +12,7 @@ while continueWorkFlag
         end
     end
 
-    if actionType == 'D'
+    if actionType == 'D' || actionType == '' 
         decodeText = input('\nWpisz wiadomość do zakodowania: \n', 's');
 
         decoded = decode(decodeText);
